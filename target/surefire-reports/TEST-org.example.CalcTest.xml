@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CalcTest" time="0.005" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CalcTest" time="0.031" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.class.path" value="D:\FOR FDU\Playground\05\159251\tut4\tutorial4\target\test-classes;D:\FOR FDU\Playground\05\159251\tut4\tutorial4\target\classes;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;"/>
+    <property name="java.class.path" value="D:\FOR FDU\Playground\05\159251\tut4\tutorial4\tutorial4\target\test-classes;D:\FOR FDU\Playground\05\159251\tut4\tutorial4\tutorial4\target\classes;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CN"/>
     <property name="sun.boot.library.path" value="D:\Program Files\java\jdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Users\86135\AppData\Local\Temp\surefire4323117803527138818\surefirebooter6857069909161730279.jar C:\Users\86135\AppData\Local\Temp\surefire4323117803527138818 2023-09-26T11-24-40_289-jvmRun1 surefire12943055662222785286tmp surefire_02922500161792640859tmp"/>
+    <property name="sun.java.command" value="C:\Users\86135\AppData\Local\Temp\surefire6619132959548695109\surefirebooter16471030533685550562.jar C:\Users\86135\AppData\Local\Temp\surefire6619132959548695109 2023-09-27T18-18-58_997-jvmRun1 surefire7294192896605992688tmp surefire_018048758230981581456tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\FOR FDU\Playground\05\159251\tut4\tutorial4\target\test-classes;D:\FOR FDU\Playground\05\159251\tut4\tutorial4\target\classes;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;"/>
+    <property name="surefire.test.class.path" value="D:\FOR FDU\Playground\05\159251\tut4\tutorial4\tutorial4\target\test-classes;D:\FOR FDU\Playground\05\159251\tut4\tutorial4\tutorial4\target\classes;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;D:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\86135"/>
     <property name="user.language" value="zh"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2023-01-17"/>
     <property name="java.home" value="D:\Program Files\java\jdk-19"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="D:\FOR FDU\Playground\05\159251\tut4\tutorial4"/>
+    <property name="basedir" value="D:\FOR FDU\Playground\05\159251\tut4\tutorial4\tutorial4"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\86135\AppData\Local\Temp\surefire4323117803527138818\surefirebooter6857069909161730279.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\86135\AppData\Local\Temp\surefire6619132959548695109\surefirebooter16471030533685550562.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19.0.2+7-44"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\86135\AppData\Local\Temp\"/>
     <property name="java.version" value="19.0.2"/>
-    <property name="user.dir" value="D:\FOR FDU\Playground\05\159251\tut4\tutorial4"/>
+    <property name="user.dir" value="D:\FOR FDU\Playground\05\159251\tut4\tutorial4\tutorial4"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -58,5 +58,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="testAddition" classname="org.example.CalcTest" time="0.005"/>
+  <testcase name="testSubtract" classname="org.example.CalcTest" time="0.016">
+    <failure message="expected: &lt;2&gt; but was: &lt;8&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <2> but was: <8>
+	at org.example.CalcTest.testSubtract(CalcTest.java:16)
+]]></failure>
+  </testcase>
+  <testcase name="testAddition" classname="org.example.CalcTest" time="0"/>
 </testsuite>
